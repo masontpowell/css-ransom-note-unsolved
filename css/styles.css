@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
 
 * {
   padding: 0;
@@ -83,222 +86,265 @@ body {
 /* DID word */
 
 .didDLetter {
+  font-size: 45px;
+  font-weight: bold;
+  color: #35fc03;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Bytesized', sans-serif;
 }
 
 .didILetter {
+  font-size: 70px;
+  font-weight: normal;
+  color: rgba(251,192,102,255);
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: 'Montserrat Underline', sans-serif;
 }
 
 .didDTwoLetter {
+  font-size: 75px;
+  font-weight: 400;
+  color: rgb(19,255,167);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Edu au vic wa nt arrows', sans-serif;
 }
 
 /* THE word */
 
 .theTLetter {
+  font-size: 55px;
+  font-weight: 700;
+  color: #e513ff;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: 'Edu au vic wa nt arrows', sans-serif;
 }
 
 .theHLetter {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(78,66,245);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Bytesized', sans-serif;
 }
 
 .theELetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: #bff542;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Bytesized', sans-serif;
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  font-size: 65px;
+  font-weight: thin;
+  color: rgb(245, 84,66);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Montserrat Underline', sans-serif;
 }
 
 .frontendRLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: #f5aa42;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: 'Edu au vic wa nt arrows', sans-serif;
 }
 
 .frontendOLetter {
+  font-size: 40px;
+  font-weight: 400;
+  color: hsl(191, 98%, 48%);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
 
 .frontendNLetter {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3a6b4e;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Edu au vic wa nt arrows', sans-serif;
 }
 
-.frontendTLetter {
+.frontendTLetter,
+.frontendNTwoLetter,
+.developerELetter,
+.developerLLetter,
+.developerRLetter,
+.becauseCLetter,
+.becauseALetter,
+.becauseETwoLetter,
+.wantedWLetter,
+.skillsSTwoLetter {
+  font-size: 75px;
+  font-weight: 400;
+  color: rgb(19,255,167);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Edu au vic wa nt arrows', sans-serif;
 }
 
-.frontendELetter {
+.frontendELetter,
+.developerPLetter,
+.takeKLetter,
+.gardeningILetter,
+.theyTLetter,
+.rootRLetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: #bff542;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Bytesized', sans-serif;
 }
 
-.frontendNTwoLetter {
-}
-
-.frontendDLetter {
+.frontendDLetter,
+.developerVLetter,
+.upULetter,
+.wantedDLetter,
+.theirILetter,
+.skillsSLetter {
+  font-size: 70px;
+  font-weight: normal;
+  color: rgba(251,192,102,255);
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: 'Montserrat Underline', sans-serif;
 }
 
 /* DEVELOPER word */
 
-.developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
-}
-
-/* TAKE word */
-
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
-}
-
-/* UP word */
-
-.upULetter {
-}
-.upPLetter {
-}
-
-/* GARDENING word */
-
-.gardeningGLetter {
-}
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
-}
-
-/* BECAUSE word */
-
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
-}
-
-/* THEY word */
-
-.theyTLetter {
-}
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
-}
-
-/* WANTED word */
-
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
-}
-
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
-}
-
-/* IMPROVE word */
-
-.improveILetter {
-}
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
-}
-
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
-
-/* ROOT word */
-
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
-}
-
-/* SKILLS word */
-
-.skillsSLetter {
-}
-.skillsKLetter {
-}
-.skillsILetter {
-}
-.skillsLLetter {
-}
+.developerDLetter,
+.takeTLetter,
+.gardeningDLetter,
+.question-mark,
+.improvePLetter,
 .skillsLTwoLetter {
-}
-.skillsSTwoLetter {
+  font-size: 40px;
+  font-weight: 400;
+  color: hsl(191, 98%, 48%);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
 }
 
-/* SYMBOLS */
-
-.hyphen {
+.developerETwoLetter,
+.gardeningNLetter,
+.becauseSLetter,
+.improveVLetter,
+.rootTLetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: darkgoldenrod;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Ceviche One', sans-serif;
 }
+
+.developerOLetter,
+.gardeningALetter,
+.theyYLetter,
+.wantedALetter,
+.improveMLetter,
+.skillsILetter {
+  font-size: 72px;
+  font-weight: bold;
+  color: aqua;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Piazolla', sans-serif;
+}
+
+.developerEThreeLetter,
+.gardeningGLetter,
+.gardeningELetter,
+.wantedTLetter,
+.improveELetter,
+.theirTLetter,
+.skillsLLetter {
+  font-size: 65px;
+  font-weight: thin;
+  color: rgb(245, 84,66);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Montserrat Underline', sans-serif;
+}
+
+.takeALetter,
+.gardeningGTwoLetter,
+.becauseBLetter,
+.toOLetter,
+.improveILetter,
+.theirRLetter {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3a6b4e;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Edu au vic wa nt arrows', sans-serif;
+}
+
+.takeELetter,
+.gardeningNTwoLetter,
+.becauseULetter,
+.wantedELetter,
+.theirHLetter,
+.rootOLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', sans-serif;
+}
+
+.upPLetter,
+.becauseELetter,
+.theyELetter,
+.improveOLetter,
+.rootOTwoLetter,
+.skillsKLetter {
+  font-size: 55px;
+  font-weight: 700;
+  color: #e513ff;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: 'Edu au vic wa nt arrows', sans-serif;
+}
+
+.gardeningRLetter,
+.theyHLetter,
+.wantedNLetter,
+.improveRLetter {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(78,66,245);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Bytesized', sans-serif;
+}
+
+.hyphen,
+.toTLetter,
+.theirELetter,
 .exclamation-mark {
-}
-.question-mark {
+  font-size: 40px;
+  font-weight: normal;
+  color: rgba(251,192,102,255);
+  text-decoration: none;
+  text-transform: none;
+  font-family: 'Bytesized', sans-serif;
 }
